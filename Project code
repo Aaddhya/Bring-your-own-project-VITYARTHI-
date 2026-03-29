@@ -1,0 +1,75 @@
+# Bring-your-own-project-VITYARTHI-  
+
+print("----------------")
+print("I am Happy ...... I am Free.....I am Secure")
+print("----------------")
+name= input("Enter your name:")
+print("Hi buddy, I am AI Mitra")
+print(" I am here to support and suggest genuine measures")
+sleep=int(input("Enter number of hours you sleep"))
+screen=int(input("Enter number of hours of screen time:"))
+pressure= int(input( "Enter rating in 1-10 for exam pressure"))
+eating=int(input("Enter your eating habits in rate of 1-10"))
+lifestyle = int(input("Enter your lifestyle in rate of 1-10:")) 
+
+
+score= pressure +screen + eating - sleep 
+print( "Your score for anxiety is ", score)
+if score>=10:
+    anxiety= "High anxiety"
+elif score>=5 and score<= 9:
+    anxiety= "Moderate anxiety"
+else:
+  anxiety= "Low anxiety" 
+  
+print(" It's Okay to feel NOT okay sometimes,You can come out of this")
+print("Predicted Anxiety Level :", anxiety)
+
+if anxiety== "High anxiety":
+    print('---------------')
+    print(" Suggestions that can help you to feel better :")
+    print("Breathing exercises")
+    print("Some exercises like fast walking and running")
+    print("Take breaks while studying")
+    print("DO NOT intake caffeine or other strong liquids")
+    print("Talk to trusted people like family, friends, counselling professors")
+    print(" Play atleast one sport for 30 minutes daily")
+    print('---------------')
+
+elif anxiety=="Moderate anxiety":
+    print('---------------')
+    print(" Suggestions that can help you to feel better:") 
+    print("Sleep for 30 minutes") 
+    print("Read positive affirmations")
+    print("Proper eating habits like green vegatables, lot of water intake,protein should be the top priority in eating food")
+    print("Exercise daily for 30 minutes only")
+    print('---------------')  
+     
+else:
+    print(" You are taking Very good care of you physically and mentally, keep doing healthy habits ")
+    
+print('---------------')
+print("Do you want to chat with AI Mitra for clearing more doubts:")
+print('---------------')
+
+print("You can chat with AI Mitra (type exit to stop)")
+
+for i in range(3):
+    message=input("YOU")
+
+    if message.lower()=="EXIT":
+        break
+else:
+    print("Wrong entry input, Enter again")
+
+
+print("AI Mitra :")
+print("Stay calm. You are doing your best.")
+print("Take deep breaths and stay confident.")
+
+
+print("----------------------------------")
+print("This app is for educational purpose only.")
+print("Consult a professional for medical advice.")
+print("RESEARCH BEFORE TRUSTING")
+print("----------------------------------")   
